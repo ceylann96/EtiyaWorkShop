@@ -1,0 +1,25 @@
+//  SORU 1
+function asal(...numbers) {
+numbers.forEach(number => {
+  let asalMi=true;
+  for(let i=2; i<number; i++) {
+    if(number % i == 0){
+      asalMi=false;
+      break;
+    }
+  }
+  if(asalMi){
+    console.log(number+ " : asaldır");
+  }
+  else{
+    console.log(number+ " :  asal degildir")
+  }
+})  
+}
+asal(5, 7, 8, 9, 13,27);
+console.log("---------------------------------------")
+
+
+
+github: https://github.com/ceylann96/EtiyaWorkShop
+replit: https://replit.com/@KadirCeylan2/etiyaworkshop?v=1
