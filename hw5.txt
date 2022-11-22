@@ -1,0 +1,36 @@
+-SPA NEDİR ? 
+
+Single Page Application, routing işleminin JavaScript tarafından istemci tarafında yapıldığı
+bir web uygulamasıdır. Sunucudan yeni sayfaların tamamını yüklemek yerine geçerli sayfayı
+dinamik olarak yeniden yazarak kullanıcıyla etkileşime girmemizi sağlar. Router yardımıyla 
+belirlediğimiz componentleri kullanıcıya gösteririz ve aslında tek index sayfamız olmasına
+rağmen yeni bir sayfaya geçmiş gibi gösteririz.
+
+-ANGULAR NEDİR ?
+
+Angular, TypeScript ile yazılmış açık kaynaklı bir Javascript framework'üdür.Tek sayfa uygulama yapılmasına
+olanak sağlar.Model-View-Controller mimarisi kullandığından, Html ve JavaScript dosyaları için 
+aynı kodu manuel olarak yazmamız gerekmez.
+
+-TYPESCRIPT NEDİR ? 
+
+TypeScript açık kaynak ve nesne yönelimli bir programlama dilidir. Bir nevi JavaScripti daha kolay ve güvenli
+bir şekilde yazmamızı sağlayan bir sanal editördür. Karmaşık ve büyük kod yapısına sahip projelerde 
+verimliliği arttırır. TypeScript diğer JS kütüphanelerini destekler. TypeScript ile oluşan JavaScript kodu
+mevcut tüm JavaScript frameworklari, araçlarını ve kütüphanelerini yeniden kullanabilir.
+
+-DEĞER VE REFERANS TİPLER
+
+Değer tipleri verileri doğrudan kendi üzerinde saklarlar,herbir değişken verisinin bir kopyasını taşır,
+bir değişken üzerinde yapılan değişiklik diğerini etkilemez. Veri belleğin stack bölgesinde tutulur.
+Referans tipler ise verilerin referanslarını(adreslerini) saklar, iki referans değişkeni aynı veriyi
+işaret edebilir. Veriler belleğin heap bölgesinde tutulur, verinin adresi ise stack bölgesinde tutulur.
+TypeScriptte boolean,string,number,undefined değer tiplerken array,function ve object referans tiplerdir.
+
+-STACK VE HEAP ALANLAR
+
+Stack ve Heap kavramları ramin mantıksal bölümleridir.Stack'de değer tipleri,adresler ve pointerler saklanır.
+Heap'de ise referans değerleri saklanır. Stack'e erişim Heap'den daha hızlıdır.Örneğin referans tipi olan Class
+tipindeki değişkenlerin  referansları stackte kendisi ise Heap'de saklanır.Heap'de veriler karışık bir şekilde 
+saklanırken stack'de artan yada azalan adres mantığında çalışır. Bu yüzden Heap'de yer alan bir veriye erişmek
+stackte yer alan bir veriye erişmeye göre daha maliyetli bir işlemdir.
